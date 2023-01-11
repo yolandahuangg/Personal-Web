@@ -1,7 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import { About, Footer, Header, Navbar, Portfolio, Projects } from './components'
+import About from './components/About/About'
+import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header'
+import Navbar from './components/Navbar/Navbar'
+import Portfolio from './components/Portfolio/Portfolio'
+import Projects from './components/Projects/Projects'
 
 function App() {
   return (
@@ -11,8 +16,8 @@ function App() {
         <Header />
       </div>
       <About />
-      <Portfolio />
       <Projects />
+      <Portfolio />
       <Footer />
     </div>
   );
