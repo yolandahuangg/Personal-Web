@@ -27,3 +27,7 @@
     margin: 0 1rem;
     cursor: pointer;
 }
+
+.my__navbar-links_container p:hover {
+    text-decoration: underline;
+}

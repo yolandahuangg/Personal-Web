@@ -21,6 +21,7 @@
     align-items: center;
     margin: 3rem;
     font-family: var(--font-subtitle);
+    font-weight: 500;
     font-size: 20px;
 }
 
