@@ -1,0 +1,29 @@
+.my__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 1.5rem 4rem;
+}
+
+.my__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.my__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.my__navbar-links_container p {
+    color: #331A03;
+    font-family: var(--font-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0 1rem;
+    cursor: pointer;
+}

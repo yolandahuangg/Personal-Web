@@ -11,7 +11,7 @@ import Projects from './components/Projects/Projects'
 function App() {
   return (
     <div className='App'>
-      <div className='gradiant__bg'>
+      <div className='gradient__bg'>
         <Navbar />
         <Header />
       </div>
