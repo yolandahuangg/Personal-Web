@@ -13,7 +13,7 @@
 }
 
 .gradient__bg {
-    background:linear-gradient(180deg, rgb(255, 252, 245) 5%, rgb(239, 232, 224) 100%);
+    background-image: url(./assets/background.png);
 }
 
 .section__padding {
