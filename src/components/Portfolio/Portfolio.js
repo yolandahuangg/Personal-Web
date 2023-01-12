@@ -3,8 +3,15 @@ import './Portfolio.css'
 
 function Portfolio() {
   return (
-    <div>
-        Portfolio
+    <div className='my__portfolio section__padding' id='portfolio'>
+        <div className='my__portfolio-container'>
+
+          <div className='my__portfolio-heading'>
+          ⬩ SELECTED DESIGNS
+          </div>
+          <hr></hr>
+
+        </div>
     </div>
   )
 }

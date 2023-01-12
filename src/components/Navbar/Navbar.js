@@ -7,10 +7,10 @@ function Navbar() {
       <div className='my__navbar-links'>
         <div className='my__navbar-links_container'>
           <p><a href='#home'>HOME</a></p>
-          <p><a href='#About'>ABOUT</a></p>
-          <p><a href='#Projects'>PROJECTS</a></p>
-          <p><a href='#Portfolio'>PORTFOLIO</a></p>
-          <p><a href='#Footer'>CONTACT</a></p>
+          <p><a href='#about'>ABOUT</a></p>
+          <p><a href='#projects'>PROJECTS</a></p>
+          <p><a href='#portfolio'>PORTFOLIO</a></p>
+          <p><a href='#contact'>CONTACT</a></p>
         </div>
       </div>
     </div>
