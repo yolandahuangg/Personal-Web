@@ -7,13 +7,13 @@
   --font-subtitle: 'Montserrat', sans-serif;
   --font-text: 'Oxygen', sans-serif;
 
-  --color-bg: #efe8e0;
+  --color-bg: #f1f0ee;
   --color-footer : #031B34;
   --color-text: #9A8670; 
 }
 
 .gradient__bg {
-    background-image: url(./assets/background.png);
+    background: linear-gradient(to right, #f1f0ee 0% 80%, #e6e1d9 80% 100%);
 }
 
 .section__padding {

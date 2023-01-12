@@ -30,4 +30,5 @@
 
 .my__navbar-links_container p:hover {
     text-decoration: underline;
+    color: #9c7a58;
 }

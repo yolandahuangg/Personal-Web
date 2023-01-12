@@ -29,6 +29,7 @@
     font-family: var(--font-title);
     font-weight: 600;
     font-size: 90px;
+    font-weight: 500;
     margin: 0 1rem;
 }
 
@@ -43,4 +44,5 @@
 .my__header-content_img img {
     width: 100%;
     height: 100%;
+    opacity: 0.8;
 }
