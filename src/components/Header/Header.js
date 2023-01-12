@@ -7,12 +7,9 @@ function Header() {
     <div className='my__header section__padding' id='home'>
         <div className='my__header-content'>
 
-          <h1 className='text__title'>
-            <h1 className='text__title-reg'>Y</h1>
-            <h1 className='text__title-special'>O</h1>
-            <h1 className='text__title-reg'>LANDA H</h1>
-            <h1 className='text__title-special'>U</h1>
-            <h1 className='text__title-reg'>ANG</h1>
+          <h1 className='gradient__text'>
+            <h1>YOLANDA </h1>
+            <h1>HUANG</h1>
             <p>
             Software Developer & Designer
             </p>
