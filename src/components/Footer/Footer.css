@@ -3,3 +3,25 @@
     font-size: 40px;
     font-weight: 200;
 }
+
+
+.my__footer-content_sub {
+    background-color: #e6dfd9;
+    font-family: var(--font-subtitle);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.my__footer-content_text {
+    flex: 1;
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+.my__footer-content_text p {
+    flex: 1;
+    display: flex;
+    font-family: var(--font-text);
+    font-size: 16px;
+}
