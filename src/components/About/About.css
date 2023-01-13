@@ -3,3 +3,48 @@
     font-size: 40px;
     font-weight: 200;
 }
+
+.my__about-content_sub {
+    background-color: #e6dfd9;
+    font-family: var(--font-subtitle);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.my__about-content_text1 {
+    flex: 1;
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+.my__about-content_text1 p {
+    flex: 1;
+    display: flex;
+    font-family: var(--font-text);
+    font-size: 16px;
+}
+
+.my__about-content_text1 img {
+    float: right;
+    max-width: 550px;
+    max-height: 190px;
+}
+
+.my__about-content_text2 {
+    flex: 1;
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+.my__about-content_text2 p {
+    flex: 1;
+    display: flex;
+    font-family: var(--font-text);
+    font-size: 16px;
+}
+
+.my__about-content_text2 img {
+    float: left;
+}
+
