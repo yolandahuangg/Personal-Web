@@ -43,7 +43,7 @@
 }
 
 .my__footer-button {
-    background-color: #d3c6ba;
+    background-color: #c5b8ab;
     border-radius: 12px;
     border: none;
     box-shadow: none;
@@ -56,7 +56,7 @@
 } 
 
 .my__footer-button:hover{
-    background-color: #ad9885;
+    background-color: #a28d7b;
     cursor: pointer;
 }
 
