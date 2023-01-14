@@ -21,6 +21,7 @@
 
 .my__projects-content_body img {
     max-width: 200px;
+    max-height: 200px;
 }
 
 .my__projects-content_text {
