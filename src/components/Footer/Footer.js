@@ -64,8 +64,6 @@ function Footer() {
               </div>
 
             </div>
-            <hr></hr>
-
           </div>
         </div>
     </div>
