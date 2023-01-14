@@ -25,7 +25,7 @@ function Projects() {
               <div className='my__projects-content_text'>
                  <p>
                   Emolock is an emotion-controlled security lock system designed by our HASHbrown team.  <br /> <br />
-                  Languages: Python and C. <br />
+                  Languages: Python and C++. <br />
                   Implemented OpenCV real time camera processing. <br />
                   Used META's Deepface library for facial and emotion recognition. <br />
                 </p>
