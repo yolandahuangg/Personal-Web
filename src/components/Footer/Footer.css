@@ -25,3 +25,44 @@
     font-family: var(--font-text);
     font-size: 16px;
 }
+
+.my__footer-content_links {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.my__footer-extratext {
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+}
+
+.my__footer-content_buttons {
+    flex: 1;
+    display: flex;
+}
+
+.my__footer-button {
+    background-color: #d3c6ba;
+    border-radius: 12px;
+    border: none;
+    box-shadow: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+} 
+
+.my__footer-button:hover{
+    background-color: #ad9885;
+    cursor: pointer;
+}
+
+.my__footer-button p {
+    color: #fff;
+    font-family: var(--font-text);
+    font-size: 16px;
+    font-weight: 600;
+}

@@ -19,9 +19,52 @@ function Footer() {
 
             <div className='my__footer-content_text text__padding'>
               <p>
-                I am always enthusiatic to hear about:
+                I am always enthusiastic to hear about opportunities related to: <br /> <br />
+
+                Front end or back end development. <br />
+                AI/ML research. <br />
+                UX/UI design. <br />
+                Game development. <br /> <br />
+                And any other cool projects! <br />
               </p>
+
+              <div className='my__footer-content_links'>
+                <div className='my__footer-content_buttons'>
+                  <a href='mailto: yolandahaung2004@gmail.com'>
+                    <button className='my__footer-button'>
+                      <p>Email</p>
+                    </button>
+                  </a>
+
+                  <a href='https://github.com/yolandahuangg'>
+                    <button className='my__footer-button'>
+                      <p>Github</p>
+                    </button>
+                  </a>
+
+                  <a href='https://www.linkedin.com/in/yolandahuangg'>
+                    <button className='my__footer-button'>
+                      <p>LinkedIn</p>
+                    </button>
+                  </a>
+
+                  <a href='https://www.instagram.com/yolandahuangg'>
+                    <button className='my__footer-button'>
+                      <p>Instagram</p>
+                    </button>
+                  </a>
+                </div>
+                <br />
+                <hr></hr>
+
+                <p className='my__footer-extratext'>
+                  You can also reach me through the phone at 647-367-5000,<br />
+                  Or find me on discord: SpaceOddity#5841.
+                </p>
+              </div>
+
             </div>
+            <hr></hr>
 
           </div>
         </div>

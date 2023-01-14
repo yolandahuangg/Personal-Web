@@ -3,3 +3,49 @@
     font-size: 40px;
     font-weight: 200;
 }
+
+.my__projects-content_sub {
+    background-color: #e6dfd9;
+    font-family: var(--font-subtitle);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.my__projects-content_body {
+    flex: 1;
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+
+.my__projects-content_body img {
+    max-width: 200px;
+}
+
+.my__projects-content_text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.my__projects-content_text p {
+    flex: 1;
+    display: flex;
+    font-family: var(--font-text);
+    font-size: 16px;
+    margin-left: 8rem;
+}
+
+.my__projects-content_text a {
+    font-family: var(--font-text);
+    font-size: 16px;
+    font-weight: 800;
+    margin-left: 8rem;
+    cursor: pointer;
+}
+
+.my__projects-content_text a:hover {
+    text-decoration: underline;
+    color: #9c7a58;
+}

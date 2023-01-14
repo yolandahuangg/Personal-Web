@@ -9,7 +9,7 @@ function Navbar() {
           <p><a href='#home'>HOME</a></p>
           <p><a href='#about'>ABOUT</a></p>
           <p><a href='#projects'>PROJECTS</a></p>
-          <p><a href='#portfolio'>PORTFOLIO</a></p>
+          {/* <p><a href='#portfolio'>PORTFOLIO</a></p> */}
           <p><a href='#contact'>CONTACT</a></p>
         </div>
       </div>
