@@ -12,16 +12,27 @@
     font-weight: 600;
 }
 
-.my__projects-content_body {
+.my__projects-content_body1 {
     flex: 1;
     display: flex;
     padding-bottom: 4rem;
 }
 
 
-.my__projects-content_body img {
+.my__projects-content_body1 img {
     max-width: 200px;
     max-height: 200px;
+}
+
+.my__projects-content_body2 {
+    flex: 1;
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+
+.my__projects-content_body2 img {
+    max-width: 400px;
 }
 
 .my__projects-content_text {
