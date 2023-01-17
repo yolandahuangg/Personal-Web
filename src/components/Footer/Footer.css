@@ -34,7 +34,7 @@
 
 .my__footer-extratext {
     margin-left: 1rem;
-    margin-top: 2.5rem;
+    margin-top: 3.3rem;
 }
 
 .my__footer-content_buttons {
@@ -43,25 +43,26 @@
 }
 
 .my__footer-button {
-    background-color: #c5b8ab;
-    border-radius: 12px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 25px;
     border: none;
     box-shadow: none;
-    padding-left: 28px;
-    padding-right: 28px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-left: 1rem;
     margin-top: 0.5rem;
 } 
 
 .my__footer-button:hover{
-    background-color: #a28d7b;
+    background-color: #ffffff;
+    color: #000000;
     cursor: pointer;
 }
 
 .my__footer-button p {
-    color: #fff;
     font-family: var(--font-text);
     font-size: 16px;
     font-weight: 600;

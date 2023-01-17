@@ -21,11 +21,11 @@ function Footer() {
               <p>
                 I am always enthusiastic to hear about opportunities related to: <br /> <br />
 
-                Front end or back end development. <br />
+                Full stack or front end development. <br />
                 AI/ML research. <br />
                 UX/UI design. <br />
                 Game development. <br /> <br />
-                And any other cool projects! <br />
+                And any other cool projects you might have in mind! <br />
               </p>
 
               <div className='my__footer-content_links'>
