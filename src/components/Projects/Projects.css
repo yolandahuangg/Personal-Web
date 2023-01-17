@@ -22,6 +22,7 @@
 .my__projects-content_body1 img {
     max-width: 200px;
     max-height: 200px;
+    border-radius: 20px;
 }
 
 .my__projects-content_body2 {
@@ -34,6 +35,7 @@
 .my__projects-content_body2 img {
     max-width: 400px;
     max-height: 227.21px;
+    border-radius: 20px;
 }
 
 .my__projects-content_text {
