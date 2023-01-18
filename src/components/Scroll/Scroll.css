@@ -22,7 +22,7 @@
     box-shadow: none;
     cursor: pointer;
     animation: bounce 2s ease-in-out infinite;
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .button__circle:hover {
