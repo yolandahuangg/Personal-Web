@@ -13,11 +13,11 @@
 }
 
 .gradient__bg {
-  background: linear-gradient(to right, #f6f5f3 0% 80%, #e6dfd9 80% 100%);
+  background: #000000;
 }
 
 .section__padding {
-  padding: 6rem 4rem;
+  padding: 4.5rem 4rem;
 }
 
 .sub__padding {

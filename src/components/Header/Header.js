@@ -1,23 +1,36 @@
 import React from 'react'
 import './Header.css'
-import flower from '../../assets/flower.jpeg'
+import header from '../../assets/header.jpeg'
 
 function Header() {
   return (
-    <div className='my__header section__padding' id='home'>
+    <div className='my__header'>
         <div className='my__header-content'>
 
-          <div className='my__header-content_text'>
-            <h1 className='gradient__text'>
-              <h1>YOLANDA </h1>
-              <h1>HUANG</h1>
-            </h1>
-            <p>Software Developer & Designer</p>
+          <div className='my__header-content_img'>
+            <img src={header} alt='header' />  
           </div>
 
-          <div className='my__header-content_img'>
-            <img src={flower} alt='flower'/>
+          <div className='my__header-content_text'>
+            <div className='gradient__text'>
+              <p> 
+                SOFTWARE <br />
+                DEVELOPER <br />
+                & <br />
+                DESIGNER <br />
+              </p>
+            </div>
           </div>
+
+          <div className='my__header-content_name'>
+            <p>
+              Yolanda <br />
+              Huang <br /> <br /> <br />
+              "I make art come alive."
+            </p>
+          </div>
+
+          <button className='my__header-vline'></button>
 
         </div>
     </div>

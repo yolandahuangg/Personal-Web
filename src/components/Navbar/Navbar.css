@@ -2,7 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 4rem;
+    padding-top: 1.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
 }
 
 .my__navbar-links {
@@ -18,7 +21,7 @@
 }
 
 .my__navbar-links_container p {
-    color: #331A03;
+    color: #f6f5f3;
     font-family: var(--font-text);
     font-weight: 500;
     font-size: 16px;
@@ -29,5 +32,5 @@
 
 .my__navbar-links_container p:hover {
     text-decoration: underline;
-    color: #9c7a58;
+    color: #e3c8aa;
 }

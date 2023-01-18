@@ -14,6 +14,7 @@ function App() {
       <Scroll />
       <div className='gradient__bg'>
         <Navbar />
+        <hr />
         <Header />
       </div>
       <About />
