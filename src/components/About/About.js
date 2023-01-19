@@ -16,7 +16,7 @@ function About() {
             I'm Yolanda.
           </h1>
 
-          <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
+          <AnimationOnScroll animateIn="animate__fadeIn">
               <div className='my__about-content_text1 text__padding'>
                 <p>
                   I am a software developer in training, and a passionate designer. <br />
@@ -36,7 +36,7 @@ function About() {
             I'm studying at Waterloo.
           </h1>
             
-          <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
+          <AnimationOnScroll animateIn="animate__fadeIn">
             <div className='my__about-content_text2 text__padding'>
               <img src={coffee} alt='coffee'/>
               <p>

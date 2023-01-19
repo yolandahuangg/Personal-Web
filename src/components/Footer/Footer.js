@@ -29,7 +29,7 @@ function Footer() {
               </p>
 
               <div className='my__footer-content_links'>
-                <AnimationOnScroll className='my__footer-content_buttons' animateOnce={true} animateIn="animate__fadeIn">
+                <AnimationOnScroll className='my__footer-content_buttons' animateIn="animate__fadeIn">
                   <a href='mailto: yolandahaung2004@gmail.com'>
                     <button className='my__footer-button'>
                       <p>Email</p>
