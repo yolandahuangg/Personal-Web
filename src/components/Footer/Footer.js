@@ -1,4 +1,5 @@
 import React from 'react'
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 import './Footer.css'
 
 function Footer() {
@@ -10,7 +11,7 @@ function Footer() {
         </div>
         <hr></hr>
         
-        <div className='my__footer-container'>
+        <AnimationOnScroll className='my__footer-container' animateOnce={true} animateIn="animate__fadeInUp">
           <div className='my__footer-content'>
 
             <h1 className='my__footer-content_sub sub__padding'>
@@ -65,7 +66,7 @@ function Footer() {
 
             </div>
           </div>
-        </div>
+        </AnimationOnScroll>
     </div>
   )
 }

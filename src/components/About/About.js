@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css'
 import design1 from '../../assets/design1.png'
 import coffee from '../../assets/coffee.png'
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 function About() {
   return (
@@ -11,7 +12,7 @@ function About() {
         </div>
         <hr></hr>
 
-        <div className='my__about-container'>
+        <AnimationOnScroll className='my__about-container' animateOnce={true} animateIn="animate__fadeInUp">
           <div className='my__about-content'>
 
             <h1 className='my__about-content_sub sub__padding'>
@@ -50,10 +51,8 @@ function About() {
 
               </p>
             </div>
-            
           </div>
-
-        </div>
+        </AnimationOnScroll>
     </div>
   )
 }

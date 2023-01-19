@@ -3,6 +3,7 @@ import './Projects.css'
 import emolock from '../../assets/emolock.gif'
 import hash from '../../assets/hash.png'
 import ARO from '../../assets/ARO.png'
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 function Projects() {
   return (
@@ -13,7 +14,7 @@ function Projects() {
         <hr></hr>
 
         <div className='my__projects-container'>
-          <div className='my__projects-content'>
+          <AnimationOnScroll className='my__projects-content' animateOnce={true} animateIn="animate__fadeInUp">
 
             <h1 className='my__projects-content_sub sub__padding'>
               HASHbrown: Emolock
@@ -53,8 +54,7 @@ function Projects() {
               </div>
               
             </div>
-
-          </div>
+          </AnimationOnScroll>
         </div>
     </div>
   )
