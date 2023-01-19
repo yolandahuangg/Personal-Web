@@ -11,7 +11,7 @@ function Footer() {
         </div>
         <hr></hr>
         
-        <AnimationOnScroll className='my__footer-container' animateOnce={true} animateIn="animate__fadeInUp">
+        <div className='my__footer-container'>
           <div className='my__footer-content'>
 
             <h1 className='my__footer-content_sub sub__padding'>
@@ -30,7 +30,7 @@ function Footer() {
               </p>
 
               <div className='my__footer-content_links'>
-                <div className='my__footer-content_buttons'>
+                <AnimationOnScroll className='my__footer-content_buttons' animateOnce={true} animateIn="animate__zoomIn">
                   <a href='mailto: yolandahaung2004@gmail.com'>
                     <button className='my__footer-button'>
                       <p>Email</p>
@@ -54,7 +54,7 @@ function Footer() {
                       <p>Instagram</p>
                     </button>
                   </a>
-                </div>
+                </AnimationOnScroll>
                 <br />
                 <hr></hr>
 
@@ -66,7 +66,7 @@ function Footer() {
 
             </div>
           </div>
-        </AnimationOnScroll>
+        </div>
     </div>
   )
 }

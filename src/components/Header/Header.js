@@ -9,7 +9,7 @@ function Header() {
     <div className='my__header'>
         <div className='my__header-content'>
 
-          <AnimationOnScroll className='my__header-content_img' animateIn="animate__fadeInDown">
+          <AnimationOnScroll className='my__header-content_img' animateOnce={true} animateIn="animate__fadeInDown">
             <img src={header} alt='header' />  
           </AnimationOnScroll>
 

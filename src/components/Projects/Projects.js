@@ -14,7 +14,7 @@ function Projects() {
         <hr></hr>
 
         <div className='my__projects-container'>
-          <AnimationOnScroll className='my__projects-content' animateOnce={true} animateIn="animate__fadeInUp">
+          <div className='my__projects-content'>
 
             <h1 className='my__projects-content_sub sub__padding'>
               HASHbrown: Emolock
@@ -24,7 +24,7 @@ function Projects() {
               <img src={emolock} alt='emolock' />
               <img src={hash} alt='hash' />
 
-              <div className='my__projects-content_text'>
+              <AnimationOnScroll className='my__projects-content_text' animateOnce={true} animateIn="animate__fadeInRight">
                  <p>
                   Emolock is an emotion-controlled security lock system designed by our HASHbrown team. It can recognize password combinations between happy, angry, surprised and neutral. <br /> <br />
                   Languages: Python and C++. <br />
@@ -33,7 +33,7 @@ function Projects() {
                 </p>
                 <br />
                 <a href='https://github.com/yolandahuangg/hashbrowns-emolock'>→ Visit Github</a>
-              </div>
+              </AnimationOnScroll>
             </div>
 
             <h1 className='my__projects-content_sub sub__padding'>
@@ -43,7 +43,7 @@ function Projects() {
             <div className='my__projects-content_body2 text__padding'>
               <img src={ARO} alt='ARO' />
 
-              <div className='my__projects-content_text'>
+              <AnimationOnScroll className='my__projects-content_text' animateOnce={true} animateIn="animate__fadeInRight">
                 <p>
                   As full-stack developer, I am involved with the ARO web app front-end. This application is responsible for receiving and transmitting selfie requests to our ground station. <br /> <br />
                   Constructed input-responsive webpages with login and countdown functions, which greatly improves user experience. <br />
@@ -51,10 +51,10 @@ function Projects() {
                 </p>
                 <br />
                 <a href='https://www.uworbital.com/'>→ Visit UW Orbital</a>
-              </div>
+              </AnimationOnScroll>
               
             </div>
-          </AnimationOnScroll>
+          </div>
         </div>
     </div>
   )
