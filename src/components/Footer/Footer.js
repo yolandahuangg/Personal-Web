@@ -9,7 +9,6 @@ function Footer() {
         <div className='my__footer-heading'>
         ⬩ GET IN TOUCH
         </div>
-        <hr></hr>
         
         <div className='my__footer-container'>
           <div className='my__footer-content'>
@@ -30,7 +29,7 @@ function Footer() {
               </p>
 
               <div className='my__footer-content_links'>
-                <AnimationOnScroll className='my__footer-content_buttons' animateOnce={true} animateIn="animate__zoomIn">
+                <AnimationOnScroll className='my__footer-content_buttons' animateOnce={true} animateIn="animate__fadeIn">
                   <a href='mailto: yolandahaung2004@gmail.com'>
                     <button className='my__footer-button'>
                       <p>Email</p>
@@ -55,10 +54,9 @@ function Footer() {
                     </button>
                   </a>
                 </AnimationOnScroll>
-                <br />
-                <hr></hr>
 
                 <p className='my__footer-extratext'>
+                  --------------------------------------------- <br /> <br />
                   You can also reach me through the phone at 647-367-5000,<br />
                   Or find me on discord: SpaceOddity#5841.
                 </p>

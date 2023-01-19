@@ -11,7 +11,6 @@ function Projects() {
         <div className='my__projects-heading'>
         ⬩ SELECTED PROJECTS
         </div>
-        <hr></hr>
 
         <div className='my__projects-container'>
           <div className='my__projects-content'>
@@ -24,7 +23,7 @@ function Projects() {
               <img src={emolock} alt='emolock' />
               <img src={hash} alt='hash' />
 
-              <AnimationOnScroll className='my__projects-content_text' animateOnce={true} animateIn="animate__fadeInRight">
+              <AnimationOnScroll className='my__projects-content_text' animateOnce={true} animateIn="animate__fadeIn">
                  <p>
                   Emolock is an emotion-controlled security lock system designed by our HASHbrown team. It can recognize password combinations between happy, angry, surprised and neutral. <br /> <br />
                   Languages: Python and C++. <br />
@@ -43,7 +42,7 @@ function Projects() {
             <div className='my__projects-content_body2 text__padding'>
               <img src={ARO} alt='ARO' />
 
-              <AnimationOnScroll className='my__projects-content_text' animateOnce={true} animateIn="animate__fadeInRight">
+              <AnimationOnScroll className='my__projects-content_text' animateOnce={true} animateIn="animate__fadeIn">
                 <p>
                   As full-stack developer, I am involved with the ARO web app front-end. This application is responsible for receiving and transmitting selfie requests to our ground station. <br /> <br />
                   Constructed input-responsive webpages with login and countdown functions, which greatly improves user experience. <br />

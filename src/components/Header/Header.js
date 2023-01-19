@@ -9,8 +9,10 @@ function Header() {
     <div className='my__header'>
         <div className='my__header-content'>
 
-          <AnimationOnScroll className='my__header-content_img' animateOnce={true} animateIn="animate__fadeInDown">
-            <img src={header} alt='header' />  
+          <AnimationOnScroll className='my__header-content_img' animateIn="animate__fadeInDown">
+            <div>
+              <img src={header} alt='header' /> 
+            </div> 
           </AnimationOnScroll>
 
           <AnimationOnScroll className='my__header-content_text' animateOnce={true} animateIn="animate__slideInLeft">
@@ -28,7 +30,7 @@ function Header() {
             <p>
               Yolanda <br />
               Huang <br /> <br /> <br />
-              "I make art come alive."
+              "I make art come to life."
             </p>
           </AnimationOnScroll>
 
