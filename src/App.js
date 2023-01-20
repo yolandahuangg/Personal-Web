@@ -12,9 +12,11 @@ function App() {
   return (
     <div className='App'>
       <Scroll />
-      <Navbar />
-      <hr />
-      <Header />
+      <div className='gradient__bg'>
+        <Navbar />
+        <hr />
+        <Header />
+      </div>
       <About />
       <Projects />
       <Footer />
