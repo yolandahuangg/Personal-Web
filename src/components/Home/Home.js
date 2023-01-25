@@ -10,7 +10,7 @@ import Scroll from '../Scroll/Scroll'
 
 function Home() {
   return (
-    <div className='App'>
+    <div className='Home'>
       <Scroll />
       <div className='gradient__bg'>
         <Navbar />
