@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import header from '../../assets/header.jpeg'
+import header from '../../assets/header.jpg'
 import {AnimationOnScroll} from "react-animation-on-scroll";
 import "animate.css/animate.min.css";
 
