@@ -9,11 +9,11 @@ function Header() {
     <div className='my__header'>
         <div className='my__header-content'>
 
-          <div className='my__header-content_img' >
+          <AnimationOnScroll className='my__header-content_img' animateIn="animate__fadeIn">
             <div>
               <img src={header} alt='header' /> 
             </div> 
-          </div>
+          </AnimationOnScroll>
 
           <AnimationOnScroll className='my__header-content_text' animateOnce={true} animateIn="animate__slideInLeft">
             <div className='gradient__text'>
