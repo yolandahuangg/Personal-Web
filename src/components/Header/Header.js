@@ -14,6 +14,7 @@ function Header() {
               <img src={header} alt='header' /> 
             </div> 
           </AnimationOnScroll>
+          <p></p>
 
           <AnimationOnScroll className='my__header-content_text' animateOnce={true} animateIn="animate__slideInLeft">
             <div className='gradient__text'>
