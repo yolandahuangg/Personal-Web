@@ -9,13 +9,17 @@ function Header() {
     <div className='my__header'>
         <div className='my__header-content'>
 
-          <AnimationOnScroll className='my__header-content_img' animateIn="animate__fadeInDown">
+          <AnimationOnScroll className='my__header-content_img' animateOnce={true} animateIn="animate__fadeInDown" delay={300}>
             <div>
               <img src={header} alt='header' /> 
             </div> 
           </AnimationOnScroll>
 
-          <AnimationOnScroll className='my__header-content_text' animateOnce={true} animateIn="animate__slideInLeft">
+          <AnimationOnScroll className='my__header-content_text' 
+            animateOnce={true} 
+            animateIn="animate__slideInLeft"
+            delay={300}
+          >
             <div className='gradient__text'>
               <p> 
                 SOFTWARE <br />
@@ -26,7 +30,11 @@ function Header() {
             </div>
           </AnimationOnScroll>
 
-          <AnimationOnScroll className='my__header-content_name' animateOnce={true} animateIn="animate__rotateInDownRight" delay={1000}>
+          <AnimationOnScroll className='my__header-content_name' 
+            animateOnce={true} 
+            animateIn="animate__rotateInDownRight" 
+            delay={1400}
+          >
             <p>
               Yolanda <br />
               Huang <br /> <br /> <br />

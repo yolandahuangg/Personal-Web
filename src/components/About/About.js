@@ -16,20 +16,20 @@ function About() {
             I'm Yolanda.
           </h1>
 
-          <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
-              <div className='my__about-content_text1 text__padding'>
-                <p>
-                  I am a software developer in training, and a passionate designer. <br />
-                  I enjoy art both digitally and traditionally. <br />
-                  I am a fluent user of C/C++, Python, HTML/CSS, Javascript and VB. <br /> <br />
-                  I am a huge money-burning fan for DSLR cameras. <br />
-                  I love cats, movies, gaming and pretty-looking notebooks. <br />
-                  I love spring. <br />
-                  I love coding. <br />
-                  Thanks for finding my webpage! <br />
-                </p>
-                <img src={design1} alt='design1'/>
-              </div>
+          <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
+            <div className='my__about-content_text1 text__padding'>
+              <p>
+                I am a software developer in training, and a passionate designer. <br />
+                I enjoy art both digitally and traditionally. <br />
+                I am a fluent user of C/C++, Python, HTML/CSS, Javascript and VB. <br /> <br />
+                I am a huge money-burning fan for DSLR cameras. <br />
+                I love cats, movies, gaming and pretty-looking notebooks. <br />
+                I love spring. <br />
+                I love coding. <br />
+                Thanks for finding my webpage! <br />
+              </p>
+              <img src={design1} alt='design1'/>
+            </div>
           </AnimationOnScroll>
 
           <h1 className='my__about-content_sub sub__padding'>

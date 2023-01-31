@@ -1,0 +1,37 @@
+.my__porthead {
+    display: flex;
+    padding-top: 5.2rem;
+    padding-bottom: 7rem;
+}
+
+.my__porthead-content {
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.my__porthead-content_text {
+    position: absolute;
+    left: 5%;
+    right: 50%;
+    top: 18%;
+}
+
+.gradient__text p {
+    font-family: var(--font-title);
+    font-size: 90px;
+    font-weight: 400;
+    text-shadow: 2px 0px 10px #fff2d6;
+}
+
+.my__porthead-content_img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my__porthead-content_img img {
+    width: 100%;
+    height: 100%;
+}

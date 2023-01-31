@@ -12,7 +12,7 @@ function Home() {
   return (
     <div className='Home'>
       <Scroll />
-      <div className='gradient__bg'>
+      <div className='black__bg'>
         <Navbar />
         <hr />
         <Header />

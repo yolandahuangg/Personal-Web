@@ -12,8 +12,16 @@
   --color-text: #9A8670; 
 }
 
-.gradient__bg {
+.black__bg {
   background: #000000;
+}
+
+.gradient__text {
+  background: linear-gradient(to right, #f6f5f3 0% 5em, #dcc8ad 5em 11em, #f6f5f3 11em 21em, #dcc8ad
+   21em 25em, #f6f5f3 25em 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .section__padding {
