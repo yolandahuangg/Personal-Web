@@ -64,3 +64,43 @@
     text-decoration: underline;
     color: #9c7a58;
 }
+
+@media (max-width: 1024px) {
+    .my__projects-heading {
+        font-size: 32px;
+    }
+    .my__projects-content_sub {
+        font-size: 16px;
+    }
+    .my__projects-content_text p, .my__projects-content_text a {
+        font-size: 14px;
+    }
+    .my__projects-content_body1, .my__projects-content_body2{
+        flex-direction: column;
+    }
+    .my__projects-content_text p, .my__projects-content_text a {
+        margin: 0rem;
+    }
+    .my__projects-content_body1 img {
+        max-width: 230px;
+        max-height: 230px;
+        margin: 1rem 0rem 1rem;
+    }
+    .my__projects-content_body2 img {
+        max-width: 460px;
+        max-height: 261.3px;
+        margin: 1rem 0rem 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .my__projects-heading {
+        font-size: 24px;
+    }
+    .my__projects-content_sub {
+        font-size: 14px;
+    }
+    .my__projects-content_text p, .my__projects-content_text a {
+        font-size: 12px;
+    }
+}

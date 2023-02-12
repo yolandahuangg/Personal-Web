@@ -4,7 +4,6 @@
     font-weight: 200;
 }
 
-
 .my__footer-content_sub {
     background-color: #e6dfd9;
     font-family: var(--font-subtitle);
@@ -67,4 +66,36 @@
     font-family: var(--font-text);
     font-size: 16px;
     font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .my__footer-heading {
+        font-size: 32px;
+    }
+    .my__footer-content_sub {
+        font-size: 16px;
+    }
+    .my__footer-content_text p, .my__footer-extratext {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .my__footer-heading {
+        font-size: 24px;
+    }
+    .my__footer-content_sub {
+        font-size: 14px;
+    }
+    .my__footer-content_text p, .my__footer-extratext {
+        font-size: 12px;
+    }
+    .my__footer-content_text {
+        flex-direction: column;
+    }
+    .my__footer-button, .my__footer-extratext {
+        margin-left: 0rem;
+        margin-top: 2rem;
+        margin-right: 1rem;
+    }
 }

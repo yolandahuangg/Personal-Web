@@ -12,7 +12,9 @@ function Portfolio() {
         <PortNav />
         <hr />
         <PortHead />
-        <Gallery />
+        <div id='gallery'>
+          <Gallery />
+        </div>
       </div>
     </div>
   )

@@ -64,3 +64,45 @@
     width: 5px;
     height: 250px;
 }
+
+@media (max-width: 1400px) {
+    .my__header-vline {
+        top: 45%;
+        height: 200px;
+        width: 2px;
+    }
+    .my__header-content_name p {
+        font-size: 18px;
+    }
+    .my__header-content_name {
+        top: 50%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .my__header-vline {
+        top: 40%;
+        height: 120px;
+        width: 1px;
+    }
+    .my__header-content_name p {
+        font-size: 16px;
+    }
+    .my__header-content_name {
+        top: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .my__header-vline {
+        top: 40%;
+        height: 80px;
+        width: 1px;
+    }
+    .my__header-content_name p {
+        font-size: 12px;
+    }
+    .my__header-content_name {
+        top: 45%;
+    }
+}

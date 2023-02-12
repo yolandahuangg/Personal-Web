@@ -1,3 +1,16 @@
 .my__gallery {
-    padding: 8rem 10rem 15rem;
+    padding: 6rem 10rem 15rem;
+}
+
+
+@media (max-width: 1024px) {
+    .my__gallery {
+        padding: 4rem 6rem 10rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .my__gallery {
+        padding: 2rem 3rem 6rem;
+    }
 }

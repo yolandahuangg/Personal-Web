@@ -5,8 +5,7 @@ import { Images } from "./Images"
 
 function Gallery() {
     return(
-        <ResponsiveMasonry className='my__gallery' columnsCountBreakPoints={{350: 1, 900: 2, 1200: 3}}>
-            <div id='gallery'>
+        <ResponsiveMasonry className='my__gallery' columnsCountBreakPoints={{350: 1, 750: 2, 1200: 3}}>
             <Masonry gutter='15px'>
                 {Images.map((image, i) => (
                     <img
@@ -17,7 +16,6 @@ function Gallery() {
                     />
                 ))}
             </Masonry>
-            </div>
         </ResponsiveMasonry>
     )
 }

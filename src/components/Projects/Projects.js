@@ -20,8 +20,10 @@ function Projects() {
             </h1>
 
             <div className='my__projects-content_body1 text__padding'>
-              <img src={emolock} alt='emolock' />
-              <img src={hash} alt='hash' />
+              <div>
+                <img src={emolock} alt='emolock' />
+                <img src={hash} alt='hash' />
+              </div>
 
               <AnimationOnScroll className='my__projects-content_text' animateOnce={true} animateIn="animate__fadeIn">
                  <p>

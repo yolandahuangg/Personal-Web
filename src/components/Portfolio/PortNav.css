@@ -2,10 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1.5rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-bottom: 1rem;
+    padding: 1.5rem 4rem 1rem;
 }
 
 .my__navbar-links_container {
@@ -29,4 +26,22 @@
 .my__navbar-links_container p:hover {
     text-decoration: underline;
     color: #e3c8aa;
+}
+
+@media (max-width: 1024px) {
+    .my__navbar {
+        padding: 1.2rem 4rem 1rem;
+    }
+    .my__navbar-links_container p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .my__navbar {
+        padding: 0.8rem 2rem 0.5rem;
+    }
+    .my__navbar-links_container p {
+        font-size: 12px;
+    }
 }
