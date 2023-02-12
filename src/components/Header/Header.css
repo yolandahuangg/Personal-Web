@@ -95,12 +95,10 @@
 
 @media (max-width: 768px) {
     .my__header-vline {
-        top: 40%;
-        height: 80px;
-        width: 1px;
+        visibility: hidden;
     }
     .my__header-content_name p {
-        font-size: 12px;
+        font-size: 10px;
     }
     .my__header-content_name {
         top: 45%;

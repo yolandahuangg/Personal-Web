@@ -39,9 +39,10 @@
 
 @media (max-width: 768px) {
     .my__navbar {
-        padding: 0.8rem 2rem 0.5rem;
+        padding: 0.5rem 1.5rem 0.3rem;
     }
     .my__navbar-links_container p {
-        font-size: 12px;
+        font-size: 10px;
+        margin: 0rem 0.5rem;
     }
 }

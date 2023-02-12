@@ -47,10 +47,7 @@
     border-radius: 25px;
     border: none;
     box-shadow: none;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 30px;
     margin-left: 1rem;
     margin-top: 0.5rem;
     transition: all .3s ease-in-out;
@@ -87,7 +84,7 @@
     .my__footer-content_sub {
         font-size: 14px;
     }
-    .my__footer-content_text p, .my__footer-extratext {
+    .my__footer-content_text p, .my__footer-extratext, .my__footer-button p {
         font-size: 12px;
     }
     .my__footer-content_text {
@@ -96,6 +93,7 @@
     .my__footer-button, .my__footer-extratext {
         margin-left: 0rem;
         margin-top: 2rem;
-        margin-right: 1rem;
+        margin-right: 0.6rem;
+        padding: 5px 15px;
     }
 }
