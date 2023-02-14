@@ -18,7 +18,7 @@ function PortHead() {
             <AnimationOnScroll className='my__porthead-content_text' 
                 animateOnce={true} 
                 animateIn="animate__slideInLeft"
-                delay={300}
+                delay={1000}
             >
                 <div className='gradient__text'>
                     <p>PORTFOLIO</p>

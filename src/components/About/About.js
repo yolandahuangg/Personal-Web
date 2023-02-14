@@ -21,7 +21,7 @@ function About() {
               <p>
                 I am a software developer in training, and a passionate designer. <br />
                 I enjoy art both digitally and traditionally. <br />
-                I am a fluent user of C/C++, Python, HTML/CSS, Javascript and VB. <br /> <br />
+                I am a fluent user of C/C++, Python, HTML/CSS, Javascript (Node, React, Express). <br /> <br />
                 I am a huge money-burning fan for DSLR cameras. <br />
                 I love cats, movies, gaming and pretty-looking notebooks. <br />
                 I love spring. <br />
