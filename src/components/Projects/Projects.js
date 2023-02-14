@@ -17,7 +17,7 @@ function Projects() {
           <div className='my__other-projects'>
             <AnimationOnScroll className='my__other-projects_box' animateOnce={true} animateIn="animate__fadeIn">
               <h1>HASHbrown: Emolock</h1>
-              <p>Emolock is safe box security system designed by our HASHbrown team, which unlocks when recognizing
+              <p>Emolock is a safe box security system designed by our HASHbrown team, which unlocks when recognizing
                 a preset combination of emotions. 
                 It's emotion capture is achieved through META's deepface library and live camera processing. 
               </p>
