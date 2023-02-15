@@ -15,19 +15,17 @@ function Header() {
             </div> 
           </AnimationOnScroll>
 
-          <AnimationOnScroll className='my__header-content_text' 
+          <AnimationOnScroll className='my__header-content_text gradient__text' 
             animateOnce={true} 
             animateIn="animate__slideInLeft"
             delay={300}
           >
-            <div className='gradient__text'>
-              <p> 
-                SOFTWARE <br />
-                DEVELOPER <br />
-                & <br />
-                DESIGNER <br />
-              </p>
-            </div>
+            <p> 
+              SOFTWARE <br />
+              DEVELOPER <br />
+              & <br />
+              DESIGNER <br />
+            </p>
           </AnimationOnScroll>
 
           <AnimationOnScroll className='my__header-content_name' 

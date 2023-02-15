@@ -19,8 +19,6 @@
 }
 
 .my__about-content_text1 p {
-    flex: 1;
-    display: flex;
     font-family: var(--font-text);
     font-size: 16px;
 }
@@ -28,6 +26,8 @@
 .my__about-content_text1 img {
     max-width: 550px;
     max-height: 190px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .my__about-content_text2 {
@@ -37,11 +37,11 @@
 }
 
 .my__about-content_text2 p {
-    flex: 1;
-    display: flex;
     font-family: var(--font-text);
     font-size: 16px;
     margin-left: 10rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .my__about-content_text2 img {
