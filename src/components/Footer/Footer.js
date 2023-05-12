@@ -36,13 +36,13 @@ function Footer() {
                     </button>
                   </a>
 
-                  <a href='https://github.com/yolandahuangg'>
+                  <a href='https://github.com/yolandahuangg' target="_blank" rel="noreferrer">
                     <button className='my__footer-button'>
                       <p>Github</p>
                     </button>
                   </a>
 
-                  <a href='https://www.linkedin.com/in/yolandahuangg'>
+                  <a href='https://www.linkedin.com/in/yolandahuangg' target="_blank" rel="noreferrer">
                     <button className='my__footer-button'>
                       <p>LinkedIn</p>
                     </button>
