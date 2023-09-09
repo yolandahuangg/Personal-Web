@@ -20,7 +20,7 @@ function About() {
             <p>
               I am a software developer in training, and a passionate designer. <br />
               I enjoy art both digitally and traditionally. <br />
-              I am a fluent user of C/C++, Python, HTML/CSS, Javascript (Node, React, Express). <br /> <br />
+              I am a fluent user of C/C++, C#, Python, HTML/CSS, Javascript (Node, React, Express). <br /> <br />
               I am a huge money-burning fan for DSLR cameras. <br />
               I love cats, movies, gaming and pretty-looking notebooks. <br />
               I love spring. <br />
@@ -38,10 +38,10 @@ function About() {
             <div className='my__about-content_text2 text__padding'>
               <img src={coffee} alt='coffee'/>
               <p>
-                I am currently a 1B Software Engineering student at the University of Waterloo. <br /> <br />
+                I am currently a 2A Software Engineering student at the University of Waterloo. <br /> <br />
                 Engineering Anbassador of the 2022-2023 school year. <br />
                 Yearbook Representative of our 2027 cohort. <br />
-                1A GPA of 3.95. <br />
+                Accumulative GPA of 3.9 / 4.0. <br />
                 Constant seeker of either coffee or tea. <br /> <br /> <br />
                 If I'm on campus you'll be able to find me in the math/eng buildings for sure. <br />
                 If not... <br />
