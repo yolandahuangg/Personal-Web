@@ -48,6 +48,10 @@
     margin: 3rem 1rem 1rem 1rem;
 }
 
+.my__other-projects_box:hover {
+    transform: translateY(-10px);
+}
+
 .my__other-projects_box h1 {
     font-family: var(--font-subtitle);
     font-size: 24px;
